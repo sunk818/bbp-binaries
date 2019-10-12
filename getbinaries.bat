@@ -39,4 +39,11 @@ REM testnet macOS
 
 wget -N --show-progress http://biblepay.org/biblepaycore-evo-testnet.dmg
 
+REM bbpminer
+
+cd ..\bbpminer
+
+curl -LO http://github.com/biblepay/cpuminer/raw/master/binaries/bbpminer-x86.exe
+curl -LO http://github.com/biblepay/cpuminer/raw/master/binaries/bbpminer_linux
+
 cd ..
