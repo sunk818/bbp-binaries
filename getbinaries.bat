@@ -14,6 +14,10 @@ wget -N --show-progress http://biblepay.org/biblepayd-evo-x86_64-pc-linux-gnu.ta
 wget -N --show-progress http://biblepay.org/biblepayd-evo-arm-linux-gnueabihf.tar.gz
 wget -N --show-progress http://biblepay.org/biblepayd-evo-aarch64-linux-gnu.tar.gz
 
+wget -N --show-progress https://biblepay.org/biblepay-lin64.zip
+
+unzip -o biblepay-lin64.zip -d lin64
+
 REM macOS
 
 wget -N --show-progress http://biblepay.org/biblepaycore-evo.dmg
